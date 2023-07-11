@@ -19,6 +19,25 @@ body{
     color: white;
 }
 
+.title_holder{
+    text-align: center;
+    width: 600px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.pera{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+}
 /* header style */
 
 header{
@@ -60,21 +79,9 @@ header > img{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-bottom: 120px;
 }
 
-.featured > h1{
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.featured > p{
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    width: 600px;
-}
 
 .fbottom{
     display: flex;
@@ -119,3 +126,64 @@ header > img{
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/* hot styles */
+
+.hot_container{
+    display: flex;
+    justify-content:center ;
+    background-color: #E554730D;
+
+}
+
+.hot{
+    display: flex;
+    padding: 100px;
+    gap: 180px;
+    justify-items: center; 
+}
+
+.hot_text{
+    text-align: center;
+    width: 600px;
+}
+
+/* insta styles */
+
+.insta{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+/* pictures styles */
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 125px;
+}
+
+/* last styles */
+
+.last{
+    margin: 0 240px;
+    border: 0;
+    padding: 120px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin-bottom: 125px;
+}
+
+.cupon > input{
+    width: 700px;
+    padding: 20px;
+    margin: 15px;
+}
+
+/* footer style */
