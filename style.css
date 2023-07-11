@@ -1,0 +1,53 @@
+/* fonts imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* default styles */
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.primary-button{
+    background-color: #E55473;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+
+/* header style */
+
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 50px;
+    background-color: #E554731A;
+    justify-content: space-between;
+}
+.hleft{
+    width: 700px;
+}
+.htitle{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.hpera{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+header > img{
+    width: 630px;
+}
