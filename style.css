@@ -209,3 +209,29 @@ footer{
 footer p{
     color: #FFFFFF66;
 }
+
+/* extra styles */
+
+.extra{
+    background-image: url('./Flower Asset/bg.jpg');
+    height: 400px;
+    background-size: cover;
+    padding: 100px;
+}
+
+.etext{
+    
+    background-color: #f5a9eb66;
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+
+.etext > h1 > i{
+    font-weight: 300;
+}
