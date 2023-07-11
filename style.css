@@ -187,3 +187,25 @@ header > img{
 }
 
 /* footer style */
+
+footer{
+    background-color: #111010;
+    color: white;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_holder > h1 > span{
+    color: #E55473;
+}
+
+.title_holder > p{
+    color: #FFFFFFE5;
+    font-weight: 300;
+}
+
+footer p{
+    color: #FFFFFF66;
+}
