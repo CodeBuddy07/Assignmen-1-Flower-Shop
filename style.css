@@ -143,11 +143,13 @@ header > img{
     padding: 100px;
     gap: 180px;
     justify-items: center; 
+    align-items: center ;
 }
 
 .hot_text{
     text-align: center;
     width: 600px;
+    height: 280px;
 }
 
 /* insta styles */
